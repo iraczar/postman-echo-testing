@@ -20,6 +20,6 @@ public class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Wrong text"));
+                .body("data", equalTo("Hello from Netology!"));
     }
 }
